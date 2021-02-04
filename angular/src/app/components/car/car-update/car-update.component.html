@@ -1,0 +1,31 @@
+<mat-card>
+    <mat-card-title>Alterar Veículo</mat-card-title>
+    <form>
+        <mat-form-field>
+            <input matInput placeholder="Placa" [(ngModel)]="car.placa" name="placa">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Chassi" [(ngModel)]="car.chassi" name="chassi">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Renavam" [(ngModel)]="car.renavam" name="renavam">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Modelo" [(ngModel)]="car.modelo" name="modelo">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Marca" [(ngModel)]="car.marca" name="marca">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Ano" [(ngModel)]="car.ano" name="ano">
+        </mat-form-field>
+    </form>
+
+    <button mat-raised-button (click)="updateCar()" color="primary"> 
+        Atualizar Veículo
+    </button>
+    
+    <button mat-raised-button (click)="cancel()">
+        Cancelar
+    </button>
+</mat-card>
