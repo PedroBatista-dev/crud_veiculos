@@ -1,6 +1,6 @@
 # crud_veiculos
 
-Projeto desenvolvido em angular no front-end e em node no back-end. O postgres foi o banco de dados utilziado.
+Projeto desenvolvido em angular no front-end e em node no back-end. O postgres foi o banco de dados utilizado.
 
 **Obs: Antes de incializar o projeto não se esqueça de instalar as dependências com o comando "npm i"!
 Também é necessário instalar o postgres: https://get.enterprisedb.com/postgresql/postgresql-9.6.20-1-windows-x64.exe com a senha "123456".
