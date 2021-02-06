@@ -16,7 +16,7 @@ export class CarCreateComponent implements OnInit {
     renavam: "",
     modelo: "",
     marca: "",
-    ano: 0
+    ano: 2021
   }
 
   constructor(private carService: CarService, private router: Router) { }

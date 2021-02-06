@@ -2,22 +2,22 @@
     <mat-card-title>Novo Veículo</mat-card-title>
     <form>
         <mat-form-field>
-            <input matInput placeholder="Placa" [(ngModel)]="car.placa" name="placa">
+            <input matInput placeholder="Placa" [(ngModel)]="car.placa" name="placa" type="text">
         </mat-form-field>
         <mat-form-field>
-            <input matInput placeholder="Chassi" [(ngModel)]="car.chassi" name="chassi">
+            <input matInput placeholder="Chassi" [(ngModel)]="car.chassi" name="chassi" type="text">
         </mat-form-field>
         <mat-form-field>
-            <input matInput placeholder="Renavam" [(ngModel)]="car.renavam" name="renavam">
+            <input matInput placeholder="Renavam" [(ngModel)]="car.renavam" name="renavam" type="text">
         </mat-form-field>
         <mat-form-field>
-            <input matInput placeholder="Modelo" [(ngModel)]="car.modelo" name="modelo">
+            <input matInput placeholder="Modelo" [(ngModel)]="car.modelo" name="modelo" type="text">
         </mat-form-field>
         <mat-form-field>
-            <input matInput placeholder="Marca" [(ngModel)]="car.marca" name="marca">
+            <input matInput placeholder="Marca" [(ngModel)]="car.marca" name="marca" type="text">
         </mat-form-field>
         <mat-form-field>
-            <input matInput placeholder="Ano" [(ngModel)]="car.ano" name="ano">
+            <input matInput placeholder="Ano" [(ngModel)]="car.ano" name="ano" type="number" maxlength="4" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
         </mat-form-field>
     </form>
 
